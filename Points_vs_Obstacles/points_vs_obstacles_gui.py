@@ -92,7 +92,7 @@ class Point():
 
 
 pygame.init()
-#pygame.key.set_repeat(100,75)    # when a key is pressed down it sends multiple keydown signals after 100 miliseconds
+pygame.key.set_repeat(150,125)    # when a key is pressed down it sends multiple keydown signals after 125 milliseconds
 
 DISPLAYSURF = pygame.display.set_mode((WINDOW_X, WINDOW_Y))
 pygame.display.set_caption('Points: 0')
